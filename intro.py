@@ -7,3 +7,5 @@ my_seq = Seq('CATGTAGACTAG')
 print 'seq %s is %i bases long' % (my_seq, len(my_seq))
 print 'reverse complement is %s' % my_seq.reverse_complement()
 print 'protein translation is %s' % my_seq.translate()
+
+print 'complement is %s' % my_seq.complement()
